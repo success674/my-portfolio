@@ -1,0 +1,16 @@
+@media (max-width: 45rem) {
+  #nav-hide {
+    position: fixed;
+    transform: translatex(-100vh);
+    transition-duration: 1s;
+  }
+  #nav-hide.active {
+    transition-duration: 1s;
+    transform: translatex(0);
+  }
+}
+main {
+  background-image: url("../img/bg (1).png");
+  background-size: cover;
+  background-position: center;
+}
